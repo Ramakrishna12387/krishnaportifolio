@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Get In Touch | Ramakrishna</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+</head>
+<body class="bg-slate-950 text-slate-100 font-sans antialiased">
+
+  <nav class="sticky top-0 z-50 backdrop-blur-md bg-slate-900/90 border-b border-slate-800">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 py-4 flex items-center justify-between">
+      <a href="index.html" class="text-xl font-bold tracking-tight text-white">RAMAKRISHNA<span class="text-blue-500">.</span></a>
+      <div class="hidden md:flex items-center space-x-6 text-sm font-medium">
+        <a href="index.html" class="hover:text-blue-400 text-slate-300">Home</a>
+        <a href="about.html" class="hover:text-blue-400 text-slate-300">About</a>
+        <a href="video.html" class="hover:text-blue-400 text-slate-300">Intro Video</a>
+        <a href="contact.html" class="text-blue-400 font-bold">Enquiry Now</a>
+      </div>
+      <button id="menu-btn" class="md:hidden text-slate-300 p-2"><i class="fa-solid fa-bars text-xl"></i></button>
+    </div>
+    <div id="mobile-menu" class="hidden md:hidden bg-slate-900 border-b border-slate-800 px-6 py-4 space-y-3">
+      <a href="index.html" class="block text-slate-300 py-1">Home</a>
+      <a href="about.html" class="block text-slate-300 py-1">About</a>
+      <a href="video.html" class="block text-slate-300 py-1">Intro Video</a>
+      <a href="contact.html" class="block text-blue-400 font-semibold py-1">Enquiry Now</a>
+    </div>
+  </nav>
+
+  <section class="max-w-4xl mx-auto px-4 sm:px-6 py-10 md:py-16">
+    <div class="text-center mb-8">
+      <h1 class="text-2xl sm:text-3xl font-extrabold text-white">Have a Project in Mind?</h1>
+      <p class="text-slate-400 text-xs sm:text-sm mt-1">Submit an enquiry or connect directly via WhatsApp.</p>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8">
+      <!-- Direct Contact Channels -->
+      <div class="space-y-4">
+        <!-- WhatsApp -->
+        <div class="p-5 sm:p-6 bg-slate-900 border border-slate-800 rounded-xl">
+          <i class="fa-brands fa-whatsapp text-emerald-400 text-3xl mb-2 block"></i>
+          <h3 class="font-bold text-white text-base">Direct WhatsApp</h3>
+          <p class="text-sm text-slate-400 mt-1">+91 86109 90603</p>
+          <a href="https://wa.me/918610990603?text=Hi%20Ramakrishna,%20I%20would%20like%20to%20discuss%20a%20data%20project." 
+             target="_blank" 
+             class="mt-4 w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-emerald-600 hover:bg-emerald-500 text-white text-xs font-semibold px-4 py-2.5 rounded-lg transition">
+            <i class="fa-brands fa-whatsapp text-sm"></i> Chat on WhatsApp
+          </a>
+        </div>
+
+        <!-- Email -->
+        <div class="p-5 sm:p-6 bg-slate-900 border border-slate-800 rounded-xl">
+          <i class="fa-solid fa-envelope text-blue-400 text-3xl mb-2 block"></i>
+          <h3 class="font-bold text-white text-base">Email Address</h3>
+          <p class="text-sm text-slate-400 mt-1 break-all">mrramakrishna2005@gmail.com</p>
+        </div>
+      </div>
+
+      <!-- Enquiry Form -->
+      <form action="https://api.web3forms.com/submit" method="POST" class="bg-slate-900 border border-slate-800 p-5 sm:p-6 rounded-xl space-y-4">
+        <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE" />
+        <input type="hidden" name="subject" value="New Data Science Client Enquiry!" />
+
+        <div>
+          <label class="block text-xs font-semibold text-slate-300 mb-1">Your Name</label>
+          <input type="text" name="name" required placeholder="e.g. John Doe" class="w-full bg-slate-950 border border-slate-800 rounded-lg px-3.5 py-2 text-sm text-white focus:outline-none focus:border-blue-500" />
+        </div>
+
+        <div>
+          <label class="block text-xs font-semibold text-slate-300 mb-1">Your Email</label>
+          <input type="email" name="email" required placeholder="john@example.com" class="w-full bg-slate-950 border border-slate-800 rounded-lg px-3.5 py-2 text-sm text-white focus:outline-none focus:border-blue-500" />
+        </div>
+
+        <div>
+          <label class="block text-xs font-semibold text-slate-300 mb-1">Project Details</label>
+          <textarea name="message" rows="4" required placeholder="Describe your data analysis requirements..." class="w-full bg-slate-950 border border-slate-800 rounded-lg px-3.5 py-2 text-sm text-white focus:outline-none focus:border-blue-500"></textarea>
+        </div>
+
+        <button type="submit" class="w-full bg-blue-600 hover:bg-blue-500 text-white font-semibold py-2.5 rounded-lg transition shadow-md shadow-blue-600/20 text-sm">
+          Submit Enquiry
+        </button>
+      </form>
+    </div>
+  </section>
+
+  <script>
+    document.getElementById('menu-btn').addEventListener('click', () => {
+      document.getElementById('mobile-menu').classList.toggle('hidden');
+    });
+  </script>
+</body>
+</html>
