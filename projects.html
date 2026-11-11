@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projects | Ramakrishna</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+</head>
+<body class="bg-slate-950 text-slate-100 font-sans antialiased">
+
+  <!-- Navigation -->
+  <nav class="sticky top-0 z-50 backdrop-blur-md bg-slate-900/90 border-b border-slate-800">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 py-4 flex items-center justify-between">
+      <a href="index.html" class="text-xl font-bold tracking-tight text-white">RAMAKRISHNA<span class="text-blue-500">.</span></a>
+      <div class="hidden md:flex items-center space-x-6 text-sm font-medium">
+        <a href="index.html" class="hover:text-blue-400 text-slate-300 transition">Home</a>
+        <a href="about.html" class="hover:text-blue-400 text-slate-300 transition">About</a>
+        <a href="projects.html" class="text-blue-400 font-bold">Projects</a>
+        <a href="video.html" class="hover:text-blue-400 text-slate-300 transition">Intro Video</a>
+        <a href="contact.html" class="bg-blue-600 hover:bg-blue-500 text-white px-4 py-2 rounded-lg transition">Enquiry Now</a>
+      </div>
+      <button id="menu-btn" class="md:hidden text-slate-300 p-2"><i class="fa-solid fa-bars text-xl"></i></button>
+    </div>
+    <div id="mobile-menu" class="hidden md:hidden bg-slate-900 border-b border-slate-800 px-6 py-4 space-y-3">
+      <a href="index.html" class="block text-slate-300 py-1">Home</a>
+      <a href="about.html" class="block text-slate-300 py-1">About</a>
+      <a href="projects.html" class="block text-blue-400 font-semibold py-1">Projects</a>
+      <a href="video.html" class="block text-slate-300 py-1">Intro Video</a>
+      <a href="contact.html" class="block bg-blue-600 text-white text-center py-2.5 rounded-lg font-semibold mt-2">Enquiry Now</a>
+    </div>
+  </nav>
+
+  <!-- Projects Section -->
+  <section class="max-w-6xl mx-auto px-4 sm:px-6 py-10 md:py-16">
+    <div class="flex flex-col md:flex-row md:items-center justify-between mb-10 gap-4">
+      <div>
+        <h1 class="text-2xl sm:text-4xl font-extrabold text-white">Featured GitHub Projects</h1>
+        <p class="text-slate-400 text-sm sm:text-base mt-1">Data Science, Machine Learning, NLP & Analytics Pipelines</p>
+      </div>
+      <a href="https://github.com/Ramakrishna12387" target="_blank" class="inline-flex items-center gap-2 bg-slate-900 hover:bg-slate-800 text-white border border-slate-700 px-5 py-2.5 rounded-xl font-semibold text-sm transition self-start md:self-auto">
+        <i class="fa-brands fa-github text-lg"></i> View GitHub Profile
+      </a>
+    </div>
+
+    <!-- Projects Grid -->
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+
+      <!-- Project 1: Krish Chatbot -->
+      <div class="bg-slate-900 border border-slate-800 rounded-2xl p-6 flex flex-col justify-between hover:border-blue-500/50 transition">
+        <div>
+          <div class="flex items-center justify-between mb-4">
+            <span class="px-3 py-1 text-xs font-semibold rounded-full bg-blue-500/10 text-blue-400 border border-blue-500/20">Generative AI</span>
+            <i class="fa-solid fa-robot text-slate-500 text-xl"></i>
+          </div>
+          <h3 class="text-lg font-bold text-white mb-2">Krish Chatbot - Multilingual AI Assistant</h3>
+          <p class="text-slate-400 text-xs sm:text-sm leading-relaxed mb-4">
+            Conversational AI assistant supporting Tanglish, Tamil, and English with animated typewriter streaming, session history, and Markdown code highlighting.
+          </p>
+          <div class="flex flex-wrap gap-1.5 mb-6">
+            <span class="text-[11px] bg-slate-950 text-slate-300 px-2.5 py-1 rounded-md border border-slate-800">Gemini API</span>
+            <span class="text-[11px] bg-slate-950 text-slate-300 px-2.5 py-1 rounded-md border border-slate-800">JavaScript</span>
+            <span class="text-[11px] bg-slate-950 text-slate-300 px-2.5 py-1 rounded-md border border-slate-800">Tailwind CSS</span>
+            <span class="text-[11px] bg-slate-950 text-slate-300 px-2.5 py-1 rounded-md border border-slate-800">Netlify</span>
+          </div>
+        </div>
+        <div class="flex items-center gap-3 pt-4 border-t border-slate-800/80">
+          <a href="https://github.com/Ramakrishna12387/krish-chatbot" target="_blank" class="flex-1 inline-flex items-center justify-center gap-2 bg-slate-800 hover:bg-slate-700 text-white text-xs font-semibold py-2.5 rounded-lg transition">
+            <i class="fa-brands fa-github"></i> Source Code
+          </a>
+        </div>
+      </div>
+
+      <!-- Project 2: SentixAI -->
+      <div class="bg-slate-900 border border-slate-800 rounded-2xl p-6 flex flex-col justify-between hover:border-blue-500/50 transition">
+        <div>
+          <div class="flex items-center justify-between mb-4">
+            <span class="px-3 py-1 text-xs font-semibold rounded-full bg-emerald-500/10 text-emerald-400 border border-emerald-500/20">NLP & Machine Learning</span>
+            <i class="fa-solid fa-brain text-slate-500 text-xl"></i>
+          </div>
+          <h3 class="text-lg font-bold text-white mb-2">SentixAI - E-Commerce Sentiment Analyzer</h3>
+          <p class="text-slate-400 text-xs sm:text-sm leading-relaxed mb-4">
+            End-to-end NLP application classifying consumer reviews into Positive/Negative sentiments with live probability scoring and LDA topic extraction.
+          </p>
+          <div class="flex flex-wrap gap-1.5 mb-6">
+            <span class="text-[11px] bg-slate-950 text-slate-300 px-2.5 py-1 rounded-md border border-slate-800">Python</span>
+            <span class="text-[11px] bg-slate-950 text-slate-300 px-2.5 py-1 rounded-md border border-slate-800">FastAPI</span>
+            <span class="text-[11px] bg-slate-950 text-slate-300 px-2.5 py-1 rounded-md border border-slate-800">Scikit-learn</span>
+            <span class="text-[11px] bg-slate-950 text-slate-300 px-2.5 py-1 rounded-md border border-slate-800">LDA & TF-IDF</span>
+          </div>
+        </div>
+        <div class="flex items-center gap-3 pt-4 border-t border-slate-800/80">
+          <a href="https://github.com/Ramakrishna12387" target="_blank" class="flex-1 inline-flex items-center justify-center gap-2 bg-slate-800 hover:bg-slate-700 text-white text-xs font-semibold py-2.5 rounded-lg transition">
+            <i class="fa-brands fa-github"></i> Source Code
+          </a>
+        </div>
+      </div>
+
+      <!-- Project 3: International Debt Analysis -->
+      <div class="bg-slate-900 border border-slate-800 rounded-2xl p-6 flex flex-col justify-between hover:border-blue-500/50 transition">
+        <div>
+          <div class="flex items-center justify-between mb-4">
+            <span class="px-3 py-1 text-xs font-semibold rounded-full bg-cyan-500/10 text-cyan-400 border border-cyan-500/20">Data Analytics & SQL</span>
+            <i class="fa-solid fa-earth-americas text-slate-500 text-xl"></i>
+          </div>
+          <h3 class="text-lg font-bold text-white mb-2">International Debt Analysis Dashboard</h3>
+          <p class="text-slate-400 text-xs sm:text-sm leading-relaxed mb-4">
+            In-depth exploratory data analysis on World Bank multilateral debt records across countries using SQL aggregations and an interactive Streamlit dashboard.
+          </p>
+          <div class="flex flex-wrap gap-1.5 mb-6">
+            <span class="text-[11px] bg-slate-950 text-slate-300 px-2.5 py-1 rounded-md border border-slate-800">Python</span>
+            <span class="text-[11px] bg-slate-950 text-slate-300 px-2.5 py-1 rounded-md border border-slate-800">SQL</span>
+            <span class="text-[11px] bg-slate-950 text-slate-300 px-2.5 py-1 rounded-md border border-slate-800">Pandas</span>
+            <span class="text-[11px] bg-slate-950 text-slate-300 px-2.5 py-1 rounded-md border border-slate-800">Streamlit & Plotly</span>
+          </div>
+        </div>
+        <div class="flex items-center gap-3 pt-4 border-t border-slate-800/80">
+          <a href="https://github.com/Ramakrishna12387/international-debt-analysis" target="_blank" class="flex-1 inline-flex items-center justify-center gap-2 bg-slate-800 hover:bg-slate-700 text-white text-xs font-semibold py-2.5 rounded-lg transition">
+            <i class="fa-brands fa-github"></i> Source Code
+          </a>
+        </div>
+      </div>
+
+      <!-- Project 4: AI Scam Message Detector -->
+      <div class="bg-slate-900 border border-slate-800 rounded-2xl p-6 flex flex-col justify-between hover:border-blue-500/50 transition">
+        <div>
+          <div class="flex items-center justify-between mb-4">
+            <span class="px-3 py-1 text-xs font-semibold rounded-full bg-rose-500/10 text-rose-400 border border-rose-500/20">NLP Classification</span>
+            <i class="fa-solid fa-shield-halved text-slate-500 text-xl"></i>
+          </div>
+          <h3 class="text-lg font-bold text-white mb-2">AI Scam Message Detector</h3>
+          <p class="text-slate-400 text-xs sm:text-sm leading-relaxed mb-4">
+            Text-mining classification pipeline designed to flag fraudulent SMS and scam messages using tokenization, stop-word filtering, and ML classifiers.
+          </p>
+          <div class="flex flex-wrap gap-1.5 mb-6">
+            <span class="text-[11px] bg-slate-950 text-slate-300 px-2.5 py-1 rounded-md border border-slate-800">Python</span>
+            <span class="text-[11px] bg-slate-950 text-slate-300 px-2.5 py-1 rounded-md border border-slate-800">NLTK</span>
+            <span class="text-[11px] bg-slate-950 text-slate-300 px-2.5 py-1 rounded-md border border-slate-800">Scikit-learn</span>
+            <span class="text-[11px] bg-slate-950 text-slate-300 px-2.5 py-1 rounded-md border border-slate-800">Streamlit</span>
+          </div>
+        </div>
+        <div class="flex items-center gap-3 pt-4 border-t border-slate-800/80">
+          <a href="https://github.com/Ramakrishna12387/scam-detector-ai" target="_blank" class="flex-1 inline-flex items-center justify-center gap-2 bg-slate-800 hover:bg-slate-700 text-white text-xs font-semibold py-2.5 rounded-lg transition">
+            <i class="fa-brands fa-github"></i> Source Code
+          </a>
+        </div>
+      </div>
+
+      <!-- Project 5: Enterprise Sales Management System -->
+      <div class="bg-slate-900 border border-slate-800 rounded-2xl p-6 flex flex-col justify-between hover:border-blue-500/50 transition">
+        <div>
+          <div class="flex items-center justify-between mb-4">
+            <span class="px-3 py-1 text-xs font-semibold rounded-full bg-purple-500/10 text-purple-400 border border-purple-500/20">Database & Analytics</span>
+            <i class="fa-solid fa-building-columns text-slate-500 text-xl"></i>
+          </div>
+          <h3 class="text-lg font-bold text-white mb-2">Sales Management & Intelligence Hub</h3>
+          <p class="text-slate-400 text-xs sm:text-sm leading-relaxed mb-4">
+            Multi-branch enterprise sales application tracking daily transactions, customer purchase history, automated balance calculations, and SQL ledger validation.
+          </p>
+          <div class="flex flex-wrap gap-1.5 mb-6">
+            <span class="text-[11px] bg-slate-950 text-slate-300 px-2.5 py-1 rounded-md border border-slate-800">Python</span>
+            <span class="text-[11px] bg-slate-950 text-slate-300 px-2.5 py-1 rounded-md border border-slate-800">Streamlit</span>
+            <span class="text-[11px] bg-slate-950 text-slate-300 px-2.5 py-1 rounded-md border border-slate-800">MySQL</span>
+          </div>
+        </div>
+        <div class="flex items-center gap-3 pt-4 border-t border-slate-800/80">
+          <a href="https://github.com/Ramakrishna12387/enterprise-sales-management-system" target="_blank" class="flex-1 inline-flex items-center justify-center gap-2 bg-slate-800 hover:bg-slate-700 text-white text-xs font-semibold py-2.5 rounded-lg transition">
+            <i class="fa-brands fa-github"></i> Source Code
+          </a>
+        </div>
+      </div>
+
+      <!-- Project 6: Nike Sales Intelligence -->
+      <div class="bg-slate-900 border border-slate-800 rounded-2xl p-6 flex flex-col justify-between hover:border-blue-500/50 transition">
+        <div>
+          <div class="flex items-center justify-between mb-4">
+            <span class="px-3 py-1 text-xs font-semibold rounded-full bg-amber-500/10 text-amber-400 border border-amber-500/20">BI Dashboard</span>
+            <i class="fa-solid fa-chart-line text-slate-500 text-xl"></i>
+          </div>
+          <h3 class="text-lg font-bold text-white mb-2">Nike Sales Intelligence & Analytics Portal</h3>
+          <p class="text-slate-400 text-xs sm:text-sm leading-relaxed mb-4">
+            Executive commercial sales dashboard with dynamic category slicers updating real-time revenue, margins, profit metrics, and one-click PDF reporting.
+          </p>
+          <div class="flex flex-wrap gap-1.5 mb-6">
+            <span class="text-[11px] bg-slate-950 text-slate-300 px-2.5 py-1 rounded-md border border-slate-800">JavaScript</span>
+            <span class="text-[11px] bg-slate-950 text-slate-300 px-2.5 py-1 rounded-md border border-slate-800">Chart.js</span>
+            <span class="text-[11px] bg-slate-950 text-slate-300 px-2.5 py-1 rounded-md border border-slate-800">HTML5 & CSS3</span>
+          </div>
+        </div>
+        <div class="flex items-center gap-3 pt-4 border-t border-slate-800/80">
+          <a href="https://github.com/Ramakrishna12387" target="_blank" class="flex-1 inline-flex items-center justify-center gap-2 bg-slate-800 hover:bg-slate-700 text-white text-xs font-semibold py-2.5 rounded-lg transition">
+            <i class="fa-brands fa-github"></i> Source Code
+          </a>
+        </div>
+      </div>
+
+      <!-- Project 7: COVID-19 Global Trend Analysis -->
+      <div class="bg-slate-900 border border-slate-800 rounded-2xl p-6 flex flex-col justify-between hover:border-blue-500/50 transition">
+        <div>
+          <div class="flex items-center justify-between mb-4">
+            <span class="px-3 py-1 text-xs font-semibold rounded-full bg-teal-500/10 text-teal-400 border border-teal-500/20">Time-Series EDA</span>
+            <i class="fa-solid fa-virus-covid text-slate-500 text-xl"></i>
+          </div>
+          <h3 class="text-lg font-bold text-white mb-2">COVID-19 Global Trend & Time-Series Analysis</h3>
+          <p class="text-slate-400 text-xs sm:text-sm leading-relaxed mb-4">
+            Exploratory time-series analysis on global epidemiological datasets tracking confirmed infections, recovery ratios, and case fatality trajectories.
+          </p>
+          <div class="flex flex-wrap gap-1.5 mb-6">
+            <span class="text-[11px] bg-slate-950 text-slate-300 px-2.5 py-1 rounded-md border border-slate-800">Python</span>
+            <span class="text-[11px] bg-slate-950 text-slate-300 px-2.5 py-1 rounded-md border border-slate-800">Pandas & NumPy</span>
+            <span class="text-[11px] bg-slate-950 text-slate-300 px-2.5 py-1 rounded-md border border-slate-800">Matplotlib & Seaborn</span>
+          </div>
+        </div>
+        <div class="flex items-center gap-3 pt-4 border-t border-slate-800/80">
+          <a href="https://github.com/Ramakrishna12387" target="_blank" class="flex-1 inline-flex items-center justify-center gap-2 bg-slate-800 hover:bg-slate-700 text-white text-xs font-semibold py-2.5 rounded-lg transition">
+            <i class="fa-brands fa-github"></i> Source Code
+          </a>
+        </div>
+      </div>
+
+      <!-- Project 8: Supermarket Billing System -->
+      <div class="bg-slate-900 border border-slate-800 rounded-2xl p-6 flex flex-col justify-between hover:border-blue-500/50 transition">
+        <div>
+          <div class="flex items-center justify-between mb-4">
+            <span class="px-3 py-1 text-xs font-semibold rounded-full bg-indigo-500/10 text-indigo-400 border border-indigo-500/20">Database Application</span>
+            <i class="fa-solid fa-cart-shopping text-slate-500 text-xl"></i>
+          </div>
+          <h3 class="text-lg font-bold text-white mb-2">Supermarket Billing & Inventory System</h3>
+          <p class="text-slate-400 text-xs sm:text-sm leading-relaxed mb-4">
+            Desktop application managing inventory catalogs, shopping cart calculations, GST computation, and normalized MySQL schemas for real-time stock tracking.
+          </p>
+          <div class="flex flex-wrap gap-1.5 mb-6">
+            <span class="text-[11px] bg-slate-950 text-slate-300 px-2.5 py-1 rounded-md border border-slate-800">Python</span>
+            <span class="text-[11px] bg-slate-950 text-slate-300 px-2.5 py-1 rounded-md border border-slate-800">Tkinter</span>
+            <span class="text-[11px] bg-slate-950 text-slate-300 px-2.5 py-1 rounded-md border border-slate-800">MySQL</span>
+          </div>
+        </div>
+        <div class="flex items-center gap-3 pt-4 border-t border-slate-800/80">
+          <a href="https://github.com/Ramakrishna12387" target="_blank" class="flex-1 inline-flex items-center justify-center gap-2 bg-slate-800 hover:bg-slate-700 text-white text-xs font-semibold py-2.5 rounded-lg transition">
+            <i class="fa-brands fa-github"></i> Source Code
+          </a>
+        </div>
+      </div>
+
+      <!-- Project 9: Online Store Sales Analysis -->
+      <div class="bg-slate-900 border border-slate-800 rounded-2xl p-6 flex flex-col justify-between hover:border-blue-500/50 transition">
+        <div>
+          <div class="flex items-center justify-between mb-4">
+            <span class="px-3 py-1 text-xs font-semibold rounded-full bg-pink-500/10 text-pink-400 border border-pink-500/20">Retail Analytics</span>
+            <i class="fa-solid fa-chart-pie text-slate-500 text-xl"></i>
+          </div>
+          <h3 class="text-lg font-bold text-white mb-2">Online Store Sales Analysis & Savings App</h3>
+          <p class="text-slate-400 text-xs sm:text-sm leading-relaxed mb-4">
+            Retail e-commerce sales performance analysis in Python automating sales charts and PDF summary reports, paired with a personal financial tracker prototype.
+          </p>
+          <div class="flex flex-wrap gap-1.5 mb-6">
+            <span class="text-[11px] bg-slate-950 text-slate-300 px-2.5 py-1 rounded-md border border-slate-800">Python</span>
+            <span class="text-[11px] bg-slate-950 text-slate-300 px-2.5 py-1 rounded-md border border-slate-800">Pandas</span>
+            <span class="text-[11px] bg-slate-950 text-slate-300 px-2.5 py-1 rounded-md border border-slate-800">Matplotlib</span>
+          </div>
+        </div>
+        <div class="flex items-center gap-3 pt-4 border-t border-slate-800/80">
+          <a href="https://github.com/Ramakrishna12387" target="_blank" class="flex-1 inline-flex items-center justify-center gap-2 bg-slate-800 hover:bg-slate-700 text-white text-xs font-semibold py-2.5 rounded-lg transition">
+            <i class="fa-brands fa-github"></i> Source Code
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <script>
+    document.getElementById('menu-btn').addEventListener('click', () => {
+      document.getElementById('mobile-menu').classList.toggle('hidden');
+    });
+  </script>
+</body>
+</html>
